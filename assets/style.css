@@ -33,7 +33,7 @@ clear: both;
   color: black;
 }
 
-.hoverable-contentet:hover{
+.hoverable-contenent:hover{
   cursor: pointer;
   color: #3161e0;
 }
@@ -68,30 +68,40 @@ header{
   background-color:#255ee9 ;
 }
 
-header .header-container{
+.header-container{
   line-height: 80px;
   }
 
+.logo{
+  width: 20%;
+
+}
+.central-menu{
+  width: 60%;
+}
+
 .header-container img{
   vertical-align:middle ;
-  margin-right: 25%;
 }
-.header-container ul,li{
+
+
+.header-container ul li{
   display: inline-block;
-}
-
-.header-container li{
   font-weight:600;
-  margin-right: 30px;
+  margin: 0 5%;
 }
 
-.hoverable-contente li:hover{
+.hoverable-contenent li:hover{
   cursor: pointer;
   color: #3d31e0;
 }
 
 .header-button-container{
-  float:right;
+  float: left;
+  width: 20%;
+}
+.header-button-container span{
+  float: right;
 }
 
 
@@ -151,44 +161,108 @@ span:nth-child(2){
 Main
 */
 
-.wave-background-utily{ 
+/* .wave-background-utily{ 
   background-image: url(./img/wave.svg);
+    background-size: 1000em;
+    opacity: 0.2;
+} */
+
+/* Prima sezione */
+
+.first-section-container img{
+  width:80%;
+  margin: 0 15%;
 }
 
+/* seconda sezione */ 
 
-.first-section-container{
-  height: 300px;
-  background-color: red;
-}
+
 
 .second-section-container{ 
-  height: 300px;
-  background-color: rgb(251, 255, 0);
+  padding: 15%  0;
 }
 
-.third-section-container{
-  height: 300px;
-  background-color: rgb(76, 0, 255);
+.second-section-container img{
+  width:70%;
+  margin: 0 15%;
+  }
+
+
+/* Terza sezione */
+
+.third-section-container img{
+  width:80%;
+  margin: 0 15%;
 }
 
-.forth-section-container{
-  height: 600px;
-  background-color: rgb(0, 255, 255);
-}
 
 .section-image-container{
-  width: 300px;
-  height: 200px;
-  background-color: rgb(0, 5, 5);
-  margin: 0 15%;
+  float: left;
+  width: 60%;
   
 }
 
-.section-texto-container{
-  width: 300px;
-  height: 200px;
-  background-color: rgb(155, 34, 34);
-  margin: 0 15%;
+.section-text-container{
+  float: left;
+  width: 40%;
+  padding: 36px 160px 20px 190px;
+  
+}
+.section-text-container h2{
+  font-size: 30px;
+}
+
+.section-text-container p{
+  margin-top: 20px;
+  font-size: 20px; 
+}
+
+
+/* Quarta sezione */
+
+.forth-section-text-container{
+  width: 60%;
+  margin: 0 auto;
+  padding: 5%  0;
+  text-align: center;
+}
+
+.forth-section-text-container h2{
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.forth-section-image-container{
+  padding-left:20%;
+}
+
+.forth-section-image-container  img{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.forth-section-link-container{
+  padding: 8% 0;
+
+}
+
+.forth-section-link-container h3{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  background-image: url(./img/stars.svg);
+  background-position: top;
+}
+
+.forth-button-container{
+  text-align: center;
+  padding-top: 4%;
+}
+
+.forth-button-container span{
+  background-color: #8ea1e1;
+  color: white;
 }
 
 /*
@@ -216,38 +290,71 @@ footer{
 
   /* FOOTER MENU */ 
 
-.social-container{
-  width: 100px;
-  height: 200px;
-  background-color: chocolate;
+footer li{
+  padding: 25px 0 0 30px ;
 }
-.prodotto-container{
-  width: 100px;
+
+
+
+.list-head{
+  color: #255ee9;
+  font-weight: 600;
+}
+
+.social-container{
+  width: 15%;
+  margin-left: 7.5%;
+  margin-right:6% ;
   height: 200px;
-  background-color: chocolate;
+}
+
+.social-container h2{
+  color: #7289da;
+  padding-bottom: 20px;
+}
+.social-container img{
+  width: 10%;
+  margin-right: 20px;
+}
+
+.social-container p{
+  font-weight: bold;
+}
+
+.social-container ul li{
+  text-align: center;
+  padding: 20px 10px 15px 0px;
+}
+
+.social-container ul li{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.prodotto-container{
+  width: 18%;
 }
 .compagnia-container{
-  width: 100px;
-  height: 200px;
-  background-color: chocolate;
+  width: 18%;
 }
 
 .risorse-container{
-  width: 100px;
-  height: 200px;
-  background-color: chocolate;
+  width: 18%;
 }
 
 .norme-container{
-  width: 100px;
-  height: 200px;
-  background-color: chocolate;
+  width: 10%;
+  margin-right: 6.5%;
 }
 
 .footer-base-container{
   height: 60px;
-  background-color: chocolate;
+  background-color: #255ee9;
 }
+
+
+
+
 /*
 /Footer
 */
