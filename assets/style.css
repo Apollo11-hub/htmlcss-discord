@@ -29,7 +29,6 @@ clear: both;
   font-weight: 600;
   padding: 10px 15px;
   border-radius: 25px;
-  text-transform: capitalize;
   background-color: white;
   color: black;
 }
@@ -117,15 +116,28 @@ Jumbotron
 
 .jumbotron-container{
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
-  /* width: 400px; */
-  height: 400px;
-  background-color:white ;
+  text-align: center;
+  color: white;
 }
 
+.jumbotron-container h2{
+  font-size: 50px;
+}
 
+.jumbotron-container p{
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+span:nth-child(2){
+  color: white;
+  background-color: black;
+  margin-left: 10px ;
+}
 
 /*
 /Jumbotron
@@ -139,13 +151,9 @@ Jumbotron
 Main
 */
 
-.second-section{ 
-  background-color: grey;
+.wave-background-utily{ 
+  background-image: url(./img/wave.svg);
 }
-.forth-section{
-  background-color: grey;
-}
-
 
 
 .first-section-container{
